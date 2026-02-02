@@ -1,58 +1,37 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial
-
-## Course introduction and goals
-
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.
-
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
-
-## Course structure and content
-
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
-
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing).
-
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
-
-*This tutorial also exists on [Google Sheets using Anthropic's Claude for Sheets extension](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing). We recommend using that version as it is more user friendly.*
-
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
-
-## Table of Contents
-
-Each chapter consists of a lesson and a set of exercises.
-
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
-
-- **Chapter 2:** Being Clear and Direct  
-
-- **Chapter 3:** Assigning Roles
-
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
-
-- **Chapter 5:** Formatting Output & Speaking for Claude
-
-- **Chapter 6:** Precognition (Thinking Step by Step)
-
-- **Chapter 7:** Using Examples
-
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
-
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
-
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Search & Retrieval
+# Anthropic'in İstem Mühendisliği Etkileşimli Eğitimine Hoş Geldiniz
+## Kurs tanıtımı ve hedefler
+Bu kurs, Claude içinde optimal istemler oluşturmayı adım adım kapsamlı bir şekilde anlamanızı sağlamak için tasarlanmıştır.
+**Bu kursu tamamladıktan sonra şunları yapabileceksiniz**:
+- İyi bir istemin temel yapısında ustalaşmak 
+- Yaygın hata modlarını tanımak ve bunları ele almak için '80/20' tekniklerini öğrenmek
+- Claude'un güçlü ve zayıf yönlerini anlamak
+- Yaygın kullanım senaryoları için sıfırdan güçlü istemler oluşturmak
+## Kurs yapısı ve içeriği
+Bu kurs, istem yazma ve sorun giderme konusunda kendiniz pratik yapmanız için birçok fırsat sunacak şekilde yapılandırılmıştır. Kurs, **ek alıştırmaları olan 9 bölüme** ve daha da gelişmiş yöntemlerin yer aldığı bir eke ayrılmıştır. **Kursu bölüm sırasıyla takip etmeniz** amaçlanmıştır. 
+**Her dersin altında bir "Örnek Oyun Alanı" bulunur**, burada derslerdeki örnekleri deneyebilir ve istem değişikliklerinin Claude'un yanıtlarını nasıl değiştirdiğini kendiniz görebilirsiniz. Ayrıca bir [cevap anahtarı](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing) da mevcuttur.
+Not: Bu eğitim, en küçük, en hızlı ve en ucuz modelimiz olan Claude 3 Haiku'yu kullanmaktadır. Anthropic'in [iki başka modeli](https://docs.anthropic.com/claude/docs/models-overview) daha vardır: Claude 3 Sonnet ve Claude 3 Opus. Bunlar Haiku'dan daha akıllıdır ve Opus en akıllı olanıdır.
+*Bu eğitim ayrıca [Anthropic'in Claude for Sheets uzantısını kullanarak Google Sheets üzerinde](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing) da mevcuttur. Daha kullanıcı dostu olduğu için o versiyonu kullanmanızı öneririz.*
+Başlamaya hazır olduğunuzda, devam etmek için `01_Temel İstem Yapısı` bölümüne gidin.
+## İçindekiler
+Her bölüm bir ders ve bir dizi alıştırmadan oluşur.
+### Başlangıç
+- **Bölüm 1:** Temel İstem Yapısı
+- **Bölüm 2:** Açık ve Net Olma  
+- **Bölüm 3:** Rol Atama
+### Orta Seviye 
+- **Bölüm 4:** Veriyi Talimatlardan Ayırma
+- **Bölüm 5:** Çıktıyı Biçimlendirme & Claude Adına Konuşma
+- **Bölüm 6:** Öngörü (Adım Adım Düşünme)
+- **Bölüm 7:** Örnekleri Kullanma
+### İleri Seviye
+- **Bölüm 8:** Halüsinasyonlardan Kaçınma
+- **Bölüm 9:** Karmaşık İstemler Oluşturma (Sektör Kullanım Senaryoları)
+  - Sıfırdan Karmaşık İstemler - Sohbet Botu
+  - Hukuk Hizmetleri için Karmaşık İstemler
+  - **Alıştırma:** Finansal Hizmetler için Karmaşık İstemler
+  - **Alıştırma:** Kodlama için Karmaşık İstemler
+  - Tebrikler & Sonraki Adımlar
+- **Ek:** Standart İstemlerin Ötesinde
+  - İstemleri Zincirleme
+  - Araç Kullanımı
+  - Arama & Erişim
